@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+.container{
+    max-width: 390px;
+    margin: auto;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope-VariableFont_wght.ttf");
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: rgb(255, 249, 241);
+}
+a{
+    color: black;
+}
+
+
+.header{
+    background-color: rgb(249, 230, 255);
+    padding: 0 15px;
+}
+.profile{
+    padding: 15px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.btn-index{
+    background-color: rgb(249, 230, 255);
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 15%;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btn-1{
+    background-color: rgb(249, 230, 255);
+    padding: 7px 15px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.btn-2{
+    background-color: rgb(255, 249, 241);
+    padding: 5px 15px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+.title-left-20{
+    font-size: 20px;
+}
+.registr{
+    position: relative;
+}
+.registr-content{
+    border-radius: 10px;
+    padding: 50px 20px ;
+    background-color: rgb(249, 230, 255);
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+}
+.input-reg{
+    padding: 7px 15px;
+    border: none;
+    width: 200px;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.width{
+    width: 230px;
+}
+.input-reg-center{
+    padding: 7px 15px;
+    border: none;
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 5px;
+    width: 230px;
+}
+
+.title-center-24{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.error{
+    color: rgb(157, 8, 8);
+    font-size: 14px;
+    width: 230px;
+}
+.label{
+    display: inline-block;
+    padding-top: 15px;
+}
+.zapici-zapici{
+    background-color: rgb(249, 230, 255);
+    border-radius: 10px;
+    padding: 15px 20px;
+    display: flex;
+    gap: 30px;
+}
+.text-bold{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.text-bold2{
+    font-weight: 600;
+}
+.btn-status{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
